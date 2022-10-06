@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+body{
+    margin-bottom: 10px; 
+    
+}
+a:hover{
+    color:orange;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.navtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px;
+}
+.navtopleft{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding:5px;
+}
+
+.brand{
+    display: flex;
+    margin-left: 25px;
+    text-align: top;
+    justify-content: space-between;
+    
+}
+
+.brandname{
+    letter-spacing: 5px;
+    margin-inline-start: 10px;
+}
+
+.navtopmiddle{
+color: black;
+text-transform: capitalize;
+text-align: center;
+}
+
+.navtopmiddle input[type=searh] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 8px;
+    border-style: outset;
+    font-size: 25px;
+}
+
+button{
+    font-size: x-large;
+    width: 100px;
+	background: rgb(235, 231, 17);
+	color: black;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	
+}
+.navtopright{
+   display: flex;
+   margin: 0px 10px;
+   justify-content: flex-start;
+   margin-top: 10px;
+}
+.user:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
+
+.user{
+    margin-right: 10px;
+}
+
+.mobil{
+    margin: 5px 0px;
+    text-align: center;
+    border-bottom: 3px solid rgb(12, 244, 47);
+    border-bottom-style: groove;
+    border-bottom-right-radius: 40%;
+    padding-bottom: 5px;
+    color: rgb(255, 106, 0);
+    font-weight: 900;
+    }
+
+.mobil:hover{
+    cursor: help;
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: x-large;
+}
+
+.navlist li{
+    padding: 5px 15px;
+    letter-spacing: 3px;
+}
+
+.navlist li a{
+    color: orangered;
+    font-weight: bolder;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+   background-image: url(handshake.jpg);
+   opacity: 0.9;
+   background-position: right;
+   background-size: cover;
+   
+}
+.container-top{
+    text-align: center;
+    margin: auto;
+}
+
+
+.h1{
+    font-style: italic; 
+    font-size: xx-large;   
+    font-weight: 900px;
+    text-align: center;
+    margin: 30px;
+    color: black;
+}
+
+.p1{
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgb(0, 255, 42);
+    display: inline;
+    text-transform: uppercase;
+}
+
+.p2{
+    font-size: xx-large;
+    padding: 15px;  
+    color: black;
+    margin: 10px;
+}
+
+.p2 span{
+    font-weight: bold;
+    color: red;
+    letter-spacing: 2px;
+}
+.container-middle{
+    width: 100%;
+}
+
+.advantage{
+    width: 600px;
+    display: column; 
+    margin: auto;
+    margin-top: 100px; 
+}
+
+.advantages{
+    display: inline-flex; 
+    align-items: baseline;
+}
+
+.container-foot{
+    display: flex;
+  
+    margin: 100px 150px 0 150px;
+}
+.bilar, .bildelar, .billån, .försäkring, .sparkonto{
+    border-style: hidden;
+    border-radius: 10%;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 0 5px 10px 5px;
+    
+}
+
+.bil, .tool, .lån, .insurance, .safe{
+    border-style: hidden;
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: azure;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conpara{
+    margin:auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+
+.bildelar{
+    background-color: white;
+}
+
+.tool{
+    background-color:#c3f2c7;
+}
+
+.billån{
+    background-color: white;
+}
+
+.lån{
+    background-color:#cbea7c;
+}
+.försäkring{
+    background-color: white;
+}
+
+.insurance{
+    background-color:#FFF6BF;
+}
+
+.sparkonto{
+    background-color: white;
+}
+
+.safe{
+    background-color:#FFF5E4;
+}
+
+.container2{
+    width: 60%;
+    margin: auto;
+    display: flex
+}
+
+.container2left{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.news{
+    display: inline-block; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+} 
+
+.info{
+    text-align: left;
+}
+.prenumera{
+    display:inline-flex;
+     
+}
+
+.prenumera input[type=e-mail] {
+    padding: 6px;
+    margin: 0px 100px;
+    border-style: outset;
+    font-size: 30px;
+}
+
+.mailcus{
+    align-items: center;
+   
+}
+.pre{
+width: 170px;
+font-size: xx-large;
+background:blue;
+color: black;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+
+}
+
+.foot{
+    width: 100%;
+    height: 330px;
+    margin:auto;
+    display: inline-flex;
+    background-color: black;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.foot .h1{
+    color: fuchsia;
+}
+
+.foot .p2{
+    color: royalblue;
+    font-size: smaller;
+}
+
+.kontakt, .adress, .kundtjänst {
+    border:5px solid red;
+    border-style: groove;
+    border-radius: 15%;
+    padding: 5px;
+    margin: 10px 10px;
+    
+}
+.kontakt a:hover{
+    color:red;
+}
+
+.kontaktlist{
+    list-style: none;
+}
+
