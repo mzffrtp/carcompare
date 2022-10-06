@@ -2,7 +2,7 @@
 
 ##### Compare cars before you buy easily!
 
-###### Created in swedish.
+###### Created in swedish, see 2 screenshots below.
 
 ![](carcompare1.jpg)
 <br>
