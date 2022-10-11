@@ -121,7 +121,7 @@ button{
 .container{
     height: auto;
     width: 100%;
-   background-image: url(handshake.jpg);
+   background-image: url(photo/handshake.jpg);
    opacity: 0.9;
    background-position: right;
    background-size: cover;
